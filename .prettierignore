@@ -1,0 +1,6 @@
+# Ignore files for pnpm, npm, yarn and bun
+pnpm-lock.yaml
+pnpm-workspace.yaml
+package-lock.json
+yarn.lock
+bun.lock
