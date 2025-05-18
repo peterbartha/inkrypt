@@ -4,3 +4,10 @@ pnpm-workspace.yaml
 package-lock.json
 yarn.lock
 bun.lock
+
+# Tauri app
+apps/client/build
+apps/client/.svelte-kit
+apps/client/package
+apps/client/vite.config.js.timestamp-*
+apps/client/vite.config.ts.timestamp-*

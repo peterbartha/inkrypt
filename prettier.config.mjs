@@ -8,4 +8,13 @@ export default {
   tabWidth: 2,
   trailingComma: "all",
   useTabs: false,
+  plugins: ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
+  overrides: [
+    {
+      files: "*.svelte",
+      options: {
+        parser: "svelte",
+      },
+    },
+  ],
 };
