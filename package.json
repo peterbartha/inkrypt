@@ -10,11 +10,15 @@
     "packages/*"
   ],
   "scripts": {
+    "dev": "turbo run dev",
+    "check": "turbo run check",
+    "lint": "turbo run lint",
     "format": "prettier --write ."
   },
   "devDependencies": {
     "prettier": "^3.5.3",
     "prettier-plugin-svelte": "^3.4.0",
-    "prettier-plugin-tailwindcss": "^0.6.11"
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "turbo": "^2.5.3"
   }
 }
