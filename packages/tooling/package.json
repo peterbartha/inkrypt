@@ -1,0 +1,10 @@
+{
+  "name": "@inkrypt/tooling",
+  "version": "0.0.0",
+  "description": "Shared tooling and configuration files for consistency and maintainability",
+  "license": "AGPL-3.0-only",
+  "private": true,
+  "exports": {
+    "./tsconfig-base": "./ts-configs/tsconfig-base.json"
+  }
+}
