@@ -1,0 +1,12 @@
+{
+  "extends": ["@inkrypt/tooling/tsconfig-base", "./.svelte-kit/tsconfig.json"],
+  "compilerOptions": {
+    "paths": {
+      "#components": ["./src/components"],
+      "#components/ui": ["./src/components/ui"],
+      "#utils": ["./src/utils"],
+      "#hooks": ["./src/hooks"],
+      "#lib": ["./src"]
+    }
+  }
+}

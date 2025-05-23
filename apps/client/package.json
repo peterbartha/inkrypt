@@ -17,16 +17,19 @@
     "nano-staged": "nano-staged"
   },
   "dependencies": {
+    "@inkrypt/ui": "workspace:*",
+    "@lucide/svelte": "^0.511.0",
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-opener": "^2"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.9",
     "@eslint/js": "^9.27.0",
-    "@inkrypt/tooling": "*",
+    "@inkrypt/tooling": "workspace:*",
     "@sveltejs/adapter-static": "^3.0.6",
     "@sveltejs/kit": "^2.9.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
+    "@tailwindcss/vite": "^4.1.7",
     "@tauri-apps/cli": "^2",
     "@types/bun": "latest",
     "eslint": "^9.27.0",
@@ -35,6 +38,7 @@
     "globals": "^16.1.0",
     "svelte": "^5.0.0",
     "svelte-check": "^4.0.0",
+    "tailwindcss": "^4.1.7",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.32.1",
     "vite": "^6.0.3"
